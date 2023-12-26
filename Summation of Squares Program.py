@@ -7,7 +7,7 @@
         Represent the above formula with a program in python
 '''
 sum = 0
-n = int(input("last number: "))
+n = int(input("Upper limit: "))
 for x in range(1,n):
     print(f"x: {x}")
     y = (x**2)
